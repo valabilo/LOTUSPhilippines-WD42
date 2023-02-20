@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTUS Philippines</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-dark text-light">
+            <div class="header-cont d-flex gap-3 px-4 py-3 align-content-center">
+                <div class="row">
+                    <p class="col-md-2 p-0 m-0 text-nowrap">CALL US:</p>
+                        <div class="col-md-5 d-flex gap-1">
+                            <img width="20px" height="20px" src="./projectassets/icons8-phone-24.png" alt="">
+                            <p class="text-nowrap p-0 m-0">(02)8-921-0000</p>
+                        </div>
+                    <div class="col-md-5 d-flex gap-1">
+                        <img width="20px" height="20px" src="./projectassets/icons8-phone-24.png"" alt="">
+                        <p class="text-nowrap p-0 m-0">(02)8-921-0000</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 align-content-center ms-auto">
+                    <a href="#">
+                        <img width="25px" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-256.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img width="25px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img width="25px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top m-0 navbar-expand-lg navbar-dark">
+        <div class="container-fluid mx-4">
+            <a href="index.html" class="navbar-brand me-5 px-2">
+                <img class="wish-zoom" width="140px" height="60px" src="./projectassets/logo-1.jpg" alt="">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-custom navbar-nav">
+                    <a href="./Products.html" class="ms-auto nav-item nav-link active">PRODUCTS</a>
+                    <a href="Promotions.html" class="ms-auto nav-item nav-link">PROMOTIONS</a>
+                    <a href="services.html" class="ms-auto nav-item nav-link">SERVICES</a>
+                </div>
+                    <form class="d-flex ms-auto">
+                        <input type="text" class="form-control me-sm-2" placeholder="Search">
+                        <button type="submit" class="btn btn-outline-light">Search</button>
+                    </form>
+                    <div class="navbar-nav m-2">
+                        <a href="#modalScrollableCenter" data-bs-toggle="modal" class="wish-zoom ms-auto nav-item nav-link"><img width="30px" height="30px" src="https://cdn3.iconfinder.com/data/icons/jolly-icons-free/64/cart_64.png" alt=""><span class="badge bg-danger">4</span></a>
+                        <a class="ms-auto wish-zoom nav-item nav-link" href="#modalSignin"  data-bs-toggle="modal"><img width="30px" height="30px" src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user-64.png" alt="Log in"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-----------CART Modal-------->
+        <div class="modal" id="modalScrollableCenter">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-4 shadow-lg">
+                <!-- Modal Header -->
+                <div class="modal-header mx-3">
+                <h3 class="modal-title">Your Cart</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc1.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" data-bs-target="" class="py-0 text-nowrap btn-sm btn btn-primary text-light" data-href="checkout.html">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc2.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc1.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc2.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button gap-2" class="py-0 text-nowrap btn-sm btn btn-success" disabled>Checked-out</button>
+                    </div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger" disabled>Cancelled</button>
+                    </div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger" disabled>Cancelled</button>
+                    </div>
+                </div>
+            <!-- Modal footer -->
+            <div class="modal-footer mx-3">
+                <a class="util-btn fw-bolder text-light btn btn-warning" href="Products.html#products">ADD MORE TO CART</a>
+                <a class="util-btn fw-bolder text-light btn btn-success" href="checkout.html">CHECK-OUT</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        <!----------Log-in Modal -->
+<div class="modal modal-signin bg-opacity-25" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-5 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+          <h4 class="fw-bold mb-0 fs-2">MyLOTUS Account</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5 pt-0">
+          <form class="my-4">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+            <a href="myAccount.html" class="w-100 my-2 btn btn-lg rounded-3 btn-warning" type="submit">Sign in</a>
+            
+            <small class="text-muted">By clicking Sign in, you agree to the terms of use.</small>
+            <hr class="my-4 mx-3">
+            <a class="text-center text-dark text-decoration-none" href="Create-Account.html"><h4><span class="text-muted">Not a member? </span>Register</h4></a>
+            <h5 class="my-3 text-center">or sign in with</h5>
+            <div class="d-flex gap-4 justify-content-center">
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-512.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="">
+                </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </nav>
+    <main>
+        <!-------Carousel-->
+        <section class="carousel-inner">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    </ol>
+                
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img height="600vh" src="./projectassets/bg-photo1.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                              <p><a class="util-btn btn-lg btn btn-warning" href="#shop-now">SHOP NOW</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img height="600vh" src="./projectassets/handtools-bg.png" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                              <p><a class="util-btn btn-lg btn btn-warning" href="#shop-now">SHOP NOW</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img height="600vh" src="./projectassets/bg-photo6.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                              <p><a class="util-btn btn-lg btn btn-warning" href="#shop-now">SHOP NOW</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+        </section>
+        <!-------Features-->
+        <section>
+            <div class="container-fluid">
+               <h2 class="fw-bolder feat-font text-start pb-4 pt-5 px-3 mx-5""> FEATURED PRODUCTS</h2>
+            </div>
+            <div class="container-inner mx-5 mt-2 mb-5">
+        <swiper-container class="mySwiper mx-5 px-2 py-2" init="false">
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html"><img width="250px" src="./projectassets/powertools1.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">BEST SELLER!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 21</p>
+                    </div>
+                        <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱7,499.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/safety3.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                <div class="d-flex justify-content-between">
+                    <h6 class="mt-3 mb-0 text-danger">NEW ARRIVAL!</h6>
+                    <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 19</p>
+                </div>
+                    <hr class="mx-2 my-1">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mt-2 mb-0">₱1,299.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/powertools3.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">BEST SELLER!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 8</p>
+                    </div>
+                            <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱4,499.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/powertools4.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">NEW ARRIVAL!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 15</p>
+                    </div>
+                            <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱2,199.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div> 
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/powertools5.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">NEW ARRIVAL!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 32</p>
+                    </div>
+                            <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱3,999.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/safety2.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">BEST SELLER!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 2</p>
+                    </div>
+                    <hr class="mx-2 my-1">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="mt-2 mb-0">₱2,499.00</h5>
+                        <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/powertools4.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger">NEW ARRIVAL!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 14</p>
+                    </div>
+                            <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱12,499.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>  
+        </swiper-slide>
+        <swiper-slide>
+            <div class="card" style="width: 350px;">
+                <a href="Item-Info.html">
+                    <img src="./projectassets/powertools3.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
+                <div class="card-body text-left">
+                    <h6 class="card-title fw-bold">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</h6>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="mt-3 mb-0 text-danger"">NEW ARRIVAL!</h6>
+                        <p class="mt-3 mb-0 fw-bolder text-secondary">Stocks: 26</p>
+                    </div>
+                            <hr class="mx-2 my-1">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="mt-2 mb-0">₱8,699.00</h5>
+                                <a href="checkout.html" class="feat-btn btn btn-warning">Buy Now</a>
+                            </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-------Banner 1----------->
+        <div class="ban container-fluid my-5" id="shop-now">
+            <h2 class="text-center py-5 mb-2">ENGINEERED TO SURPRISE</h2>
+        </div>
+        <!-------Categories------------>
+        <section>
+            <div class="container-fluid my-5">
+                <h2 class="cat-font text-start fw-bolder mx-5 pb-4 pt-5 px-3">SHOP BY CATEGORIES</h2>
+                <div class="container align-content-center d-sm-flex flex-1 justify-content-evenly gap-3 mx-auto mt-2 mb-5">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="220px" src="https://bynder.sbdinc.com/m/20e2e3ee2cfa41ac/Drupal_Small-DCF900P1_A2.jpg" class="cat-zoom card-img-top" alt="...">
+                            <div class="card-body text-justify ps-0 pt-0">
+                                <h5 class="card-title fw-bolder">POWER TOOLS</h5>
+                                <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="220px" src="https://bynder.sbdinc.com/m/3d20538f004af4b5/Drupal_Small-DW_20V_GFN_Batteries_G2.jpg" class="cat-zoom card-img-top" alt="...">
+                            <div class="card-body text-justify ps-0 pt-0">
+                                <h5 class="card-title fw-bolder">HAND TOOLS</h5>
+                                <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="220px" src="https://bynder.sbdinc.com/m/59ca34174a8b8f2/Drupal_Small-DCMWP233U2_A5.jpg" class="cat-zoom card-img-top" alt="...">
+                            <div class="card-body text-justify ps-0 pt-0">
+                                <h5 class="card-title fw-bolder">GARDEN TOOLS</h5>
+                                <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="220px" src="https://bynder.sbdinc.com/m/43bda639029a263f/Drupal_Small-DW_ToughSeries_G1.jpg" class="cat-zoom card-img-top" alt="...">
+                            <div class="card-body text-justify ps-0 pt-0">
+                                <h5 class="card-title fw-bolder">HAND TOOLS</h5>
+                                <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
+                            </div>
+                        </div>      
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="220px" src="https://bynder.sbdinc.com/m/59ca34174a8b8f2/Drupal_Small-DCMWP233U2_A5.jpg" class="cat-zoom card-img-top " alt="...">
+                            <div class="card-body text-justify ps-0 pt-0">
+                                <h5 class="card-title fw-bolder">ACCESSORIES</h5>
+                                <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-------Hero Section--------------->
+        <section class="hero container-fluid my-5 bg-dark p-3">
+            <div class="container px-3">
+            <div class="row mt-5">
+                <div class="hero1 col-md-6 p-0">
+                    <div class="bg-success p-5 text-justify text-light display-1 text-center h-100" width="100%" width="50%" height="100vh">
+                        <h1>SOME TEXT HERE</h1>
+                        <p>Some text here...</p>
+                        <a class="feat-btn btn btn-warning fw-bold" href="Products.html#products">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0">
+                    <img width="100%" class="bg-dark text-light display-1 text-center h-100" width="50%" height="100vh" src="./projectassets/hero3.jpg" alt="">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 p-0">
+                    <img width="100%" class="bg-dark text-light display-1 text-center h-100" width="50%" height="100vh" src="./projectassets/hero3.jpg" alt="">
+                </div>
+                <div class="col-md-6 p-0">
+                    <div class="bg-success p-5 text-start text-light display-1 text-center h-100" width="100%" width="50%" height="100vh">
+                        <h1>SOME TEXT HERE</h1>
+                        <p>Some text here...</p>
+                        <a class="feat-btn btn btn-warning fw-bold" href="Products.html#products">SHOP NOW</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------Utilities--------------->
+        <section>
+            <div class="container-fluid my-5">
+                <div class="container align-content-center d-md-flex gap-3 flex-1 justify-content-evenly mx-auto mt-2 mb-5">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img width="100px" height="180px" src="https://img.icons8.com/ios-filled/256/headphones.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
+                            <div class="card-body text-justify pt-0">
+                                <h5 class="card-title fw-bolder">ALWAYS BY YOUR SIDE</h5>
+                                <p class="card-text">We take extensive measures to ensure all our products are made to the very highest standards and meet all relevant industry regulations.</p>
+                                <a href="#" class="util-btn btn btn-warning">View More</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="180px" src="https://img.icons8.com/material-outlined/256/place-marker.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
+                            <div class="card-body text-justify pt-0">
+                                <h5 class="card-title fw-bolder">FIND A LOCAL RETAILER</h5>
+                                <p class="card-text">LOTUS® products and accessories are available online and at retailers nationwide.</p>
+                                <a href="#" class="util-btn btn btn-warning">View More</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img height="180px" src="https://img.icons8.com/ios-filled/256/messages-mac.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
+                            <div class="card-body text-justify pt-0">
+                                <h5 class="card-title fw-bolder">HOW CAN WE HELP?</h5>
+                                <p class="card-text">If you want to contact us, now it's easier than ever to get in touch.
+                                    Whatever you need, we are here for you.</p>
+                                <a href="#" class="util-btn btn btn-warning">View More</a>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                            <img width="100px" height="180px" src="https://img.icons8.com/ios-filled/256/work.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
+                            <div class="card-body text-justify pt-0">
+                                <h5 class="card-title fw-bolder">WARRANTY INFORMATION</h5>
+                                <p class="card-text">We’ll repair, without charge, any defects due to faulty materials or workmanship within the specified warranty.</p>
+                                <a href="#" class="util-btn btn btn-warning">View More</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-------Stores--------------->
+        <section class="mt-5 pt-5 mx-5">
+            <div class="container-fluid h-25 mb-3">
+                <h2 class="store-font text-center fw-bolder">OUR PARTNER STORES</h2>
+                <hr class="underline">
+                    <div class="row h-25 mx-2 py-3">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/truevalue-logo.png" alt="">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/wilcon-logo.jpg" alt="">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/handyman-logo.png" alt="">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/citihardwarre-logo.jpg" alt="">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/mchome-logo.jpg" alt="">
+                        <img height="150px" class="col-sm-2 mb-2" src="./projectassets/AllHome-logo.jpg" alt="">
+                    </div>
+                    <div class="container-fluid h-25 mt-5">
+                        <h2 class="store-font text-center fw-bolder pb-0">OUR ONLINE SHOPS</h2>
+                        <hr class="underline">
+                            <div class="row h-25 pb-3 pt-1 px-3">
+                                <img height="200" class="col-sm-4" src="https://logolook.net/wp-content/uploads/2022/01/Lazada-Logo.png" alt="">
+                                <img height="150" class="col-sm-4" src="https://www.philretailers.com/wp-content/uploads/2018/02/shopee-logo.png" alt="">
+                                <img height="200" class="col-sm-4" src="https://brandlogos.net/wp-content/uploads/2022/05/tiktok_shop-logo_brandlogos.net_5ewfz.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-------Sign In----------------->
+        <section class="bg-light py-5"> 
+            <div class="container-fluid h-50 ">
+                <div class="container justify-content-center text-center">
+                    <img class="mx-auto mb-3" width="100" src="https://cdn-icons-png.flaticon.com/512/0/191.png" alt="">
+                    <h2 class="si-font si-text-size fw-lighter">JOIN MyLOTUS</h2>
+                    <p>Join <span class="fw-bolder">MyLOTUS</span> to register your tools to receive discount vouchers or Lotus products and learn about the newest LOTUS tools and accessories.</p>
+                    <a class="feat-btn btn btn-warning" href="Create-Account.html">Sign In</a>
+                </div>
+            </div>
+        </section>
+        <!-------Footer Banner--------------->
+        <div class="ban container-fluid mt-3">
+            <h2 class="text-center  py-3">PERFORMANCE, DELIVERED</h2>
+        </div>
+    </main>
+    <!---------FOOTER----------->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="row mx-5 px-3 pt-3 wrapper clearfix">
+                <div class="col-md-4 flex-1">
+                    <div class="footer-logo mb-4">
+                        <a href="#">
+                            <img width="200px" height="150px" src="./projectassets/logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-support">
+                        <h3 class="foot-font">Support</h3>
+                        <hr class="ms-4">
+                        <p><a href="#">Service Center</a></p>
+                        <p><a href="#">Product Registration</a></p>
+                        <p><a href="#">Warranty Informations</a></p>
+                        <p><a href="#">FAQs</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="foot">
+                        <div>
+                            <h3 class="foot-font footer-about">About Us</h3>
+                            <hr class="ms-4">    
+                            <p><a href="">Why Lotus</a></p>
+                            <p><a href="">Featured Articles</a></p>
+                        </div>
+                        <div>
+                        <h3 class="footer-contact foot-font">Contact Us</h3>
+                            <hr class="ms-4">
+                            <div>
+                            <div class="col-md-4 d-flex gap-1">
+                                <img width="20px" height="20px" src="./projectassets/phone-icon.png" alt="">
+                                <p class="text-nowrap">(02)8-921-0000</p>
+                            </div>
+                            <div class="col-md-4 d-flex gap-1">
+                                <img width="20px" height="20px" src="./projectassets/phone-icon.png"" alt="">
+                                <p class="text-nowrap">(02)8-921-0000</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="foot-font">Follow Us</h3>
+                        </div>
+                        <hr class="ms-4">
+                        <div class="socials row mt-3 px-5 pb-2">
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-256.png" alt=""></a></div>
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt=""></a></div>
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="foot">
+                        <form class="footer-form footer-form" action="">
+                                <h3 class="foot-font">Email Sign up</h3>
+                                <p class="my-1">Sign up to receive the latest info on new LOTUS products, special offers and more.</p>
+                                <table>
+                                <tr>
+                                    <td class="td1">
+                                        <label for="" class="col-sm-5 col-form-label">First Name</label>
+                                        <div class="col-sm-10">
+                                        <input type="text" class="form-control ms-1" >
+                                    </div>
+                                        
+                                    </td>
+                                    <td class="td2">
+                                        <label for="" class="col-sm-5 col-form-label">Last Name</label>
+                                        <div class="col-sm-10">
+                                        <input type="text" class="form-control ms-1">
+                                    </td>
+                                </tr>
+                                <br>
+                                <tr>
+                                    <td class="td3" colspan="2">
+                                    <label for="" class="col-sm-5 col-form-label">Email Address</label>
+                                    <div class="col-sm-10">
+                                    <input type="email" class="form-control ms-1"><br>
+                                    <a href="#footer" class="btn btn-outline-warning mb-2">Subscribe</a>
+                                    </td></div>
+                                </tr>
+                                </table>
+                        </form>
+                    </div>
+                <div>
+                    <p>By signing up you agree to receive emails from Lotus with news, special offers, promotions and other information. You can unsubscribe at any time. See our Privacy Policy or Contact Us by filling out this form.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-ann bg-dark">
+            <div class="col-md-3"><h2 class="ms-2 px-5 py-2 textt-wrap">© Lotus Philippines</h2></div>
+            <div class="col-md-9"><h2 class="ms-2 px-5 py-2">ALL RIGHTS RESERVED 2023</h2></div>
+        </div>
+    </footer>
+    <!-------Chat Us-->
+    <div>
+        <a href="#myForm" onclick="openForm()" class="open-button">
+        <img width="75px" src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_FB-Messenger-256.png" alt=""></a>
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
+    </div>
+    <!---------Java Scripts--------->
+    <script src="JS/chatboxscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./JS/jQueryscript.js"></script>
+    
+</body>
+</html>

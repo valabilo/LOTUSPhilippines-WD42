@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------LINKS--------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-------TITLE--------->
+    <title>LOTUS Philippines</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-dark text-light">
+            <div class="header-cont d-flex gap-3 px-4 py-3 align-content-center">
+                <div class="row">
+                    <p class="col-md-2 p-0 m-0 text-nowrap">CALL US:</p>
+                        <div class="col-md-5 d-flex gap-1">
+                            <img width="20px" height="20px" src="./projectassets/icons8-phone-24.png" alt="">
+                            <p class="text-nowrap p-0 m-0">(02)8-921-0000</p>
+                        </div>
+                    <div class="col-md-5 d-flex gap-1">
+                        <img width="20px" height="20px" src="./projectassets/icons8-phone-24.png"" alt="">
+                        <p class="text-nowrap p-0 m-0">(02)8-921-0000</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 align-content-center ms-auto">
+                    <a href="#">
+                        <img width="25px" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-256.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img width="25px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img width="25px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top m-0 navbar-expand-lg navbar-dark">
+        <div class="container-fluid mx-4">
+            <a href="index.html" class="navbar-brand me-5 px-2">
+                <img class="wish-zoom" width="140px" height="60px" src="./projectassets/logo-1.jpg" alt="">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-custom navbar-nav">
+                    <a href="Products.html" class="ms-auto nav-item nav-link">PRODUCTS</a>
+                    <a href="Promotions.html" class="ms-auto nav-item nav-link">PROMOTIONS</a>
+                    <a href="services.html" class="ms-auto nav-item nav-link active">SERVICES</a>
+                </div>
+                    <form class="d-flex ms-auto">
+                        <input type="text" class="form-control me-sm-2" placeholder="Search">
+                        <button type="submit" class="btn btn-outline-light">Search</button>
+                    </form>
+                    <div class="navbar-nav m-2">
+                        <a href="#modalScrollableCenter" data-bs-toggle="modal" class="wish-zoom ms-auto nav-item nav-link"><img width="30px" height="30px" src="https://cdn3.iconfinder.com/data/icons/jolly-icons-free/64/cart_64.png" alt=""><span class="badge bg-danger">4</span></a>
+                        <a class="ms-auto wish-zoom nav-item nav-link" href="#modalSignin"  data-bs-toggle="modal"><img width="30px" height="30px" src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user-64.png" alt="Log in"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-----------CART Modal-------->
+        <div class="modal" id="modalScrollableCenter">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-4 shadow-lg">
+                <!-- Modal Header -->
+                <div class="modal-header mx-3">
+                <h3 class="modal-title">Your Cart</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc1.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc2.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc1.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger text-light">Cancel</button>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-primary text-light">Check-out</button></div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc2.jpg" alt=""><p class="mb-0 fw-bolder  ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button gap-2" class="py-0 text-nowrap btn-sm btn btn-success" disabled>Checked-out</button>
+                    </div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger" disabled>Cancelled</button>
+                    </div>
+                    <hr>
+                    <div class="modal-co d-md-flex gap-2"><img width="50px" height="50px" src="./projectassets/acc3.jpg" alt=""><p class="mb-0 fw-bolder ms-3">LOTUS BRUSHLESS 18V X-Line Cordless Impact Drill w/2pcs Battery Charger & Hard Case LTHD18VLI-2BLX</p>
+                        <button type="button" class="py-0 text-nowrap btn-sm btn btn-danger" disabled>Cancelled</button>
+                    </div>
+                </div>
+            <!-- Modal footer -->
+            <div class="modal-footer mx-3">
+                <a class="util-btn fw-bolder text-light btn btn-warning" href="Products.html#products">ADD MORE TO CART</a>
+              <button type="button" class=" fw-bolder text-light btn btn-success">CHECK-OUT ALL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!----------Log-in Modal -->
+<div class="modal modal-signin bg-opacity-25" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-5 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+          <h4 class="fw-bold mb-0 fs-2">MyLOTUS Account</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5 pt-0">
+          <form class="my-4">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+            <a href="myAccount.html" class="w-100 my-2 btn btn-lg rounded-3 btn-warning" type="submit">Sign in</a>
+            
+            <small class="text-muted">By clicking Sign in, you agree to the terms of use.</small>
+            <hr class="my-4 mx-3">
+            <a class="text-center text-dark text-decoration-none" href="Create-Account.html"><h4><span class="text-muted">Not a member? </span>Register</h4></a>
+            <h5 class="my-3 text-center">or sign in with</h5>
+            <div class="d-flex gap-4 justify-content-center">
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-512.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="50" class="p-0" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="">
+                </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </nav>
+    <main>
+        <!-------Breadcrumbs-------->
+        <div class="container-fluid" id="products">
+            <ol class="breadcrumb mx-5">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item" active>Services</li>
+            </ol>
+        </div>
+        <!-------SignIn/Sign Up----------->
+        <section>
+            <div class="section-inner">
+                <div class="container mt-5 w-100">
+                    <h2>General Support</h2>
+                    <hr class="my-4">
+                    <div class="mx-5">
+                    <div class="d-md-flex gap-5 my-5">
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-regtool.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Register Your Tools</h4>
+                        </div>
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-orderreplacement.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Service Center</h4>
+                        </div>
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-productrepair.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Product Repair</h4>
+                        </div>
+                    </div>
+                    <div class="d-md-flex gap-5">
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-warranties.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Warranties</h4>
+                        </div>
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-batterymanagement.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Battery Mangement</h4>
+                        </div>
+                        <div class="p-5 shadow w-100 h-100 bg-secondary rounded mb-2">
+                            <img width="260px" class="m-auto" src="projectassets/icon-contactus.svg" alt="">
+                            <h4 class="py-3 text-center text-light">Contact Us</h4>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-------Footer Banner--------------->
+    <div class="ban container-fluid mt-3">
+        <h2 class="text-center  py-3">PERFORMANCE, DELIVERED</h2>
+    </div>
+    <!---------FOOTER----------->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="row mx-5 px-3 pt-3 wrapper clearfix">
+                <div class="col-md-4 flex-1">
+                    <div class="footer-logo mb-4">
+                        <a href="#">
+                            <img width="200px" height="150px" src="./projectassets/logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-support">
+                        <h3 class="foot-font">Support</h3>
+                        <hr class="ms-4">
+                        <p><a href="#">Service Center</a></p>
+                        <p><a href="#">Product Registration</a></p>
+                        <p><a href="#">Warranty Informations</a></p>
+                        <p><a href="#">FAQs</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="foot">
+                        <div>
+                            <h3 class="foot-font footer-about">About Us</h3>
+                            <hr class="ms-4">    
+                            <p><a href="">Why Lotus</a></p>
+                            <p><a href="">Featured Articles</a></p>
+                        </div>
+                        <div>
+                        <h3 class="footer-contact foot-font">Contact Us</h3>
+                            <hr class="ms-4">
+                            <div>
+                            <div class="col-md-4 d-flex gap-1">
+                                <img width="20px" height="20px" src="./projectassets/phone-icon.png" alt="">
+                                <p class="text-nowrap">(02)8-921-0000</p>
+                            </div>
+                            <div class="col-md-4 d-flex gap-1">
+                                <img width="20px" height="20px" src="./projectassets/phone-icon.png"" alt="">
+                                <p class="text-nowrap">(02)8-921-0000</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="foot-font">Follow Us</h3>
+                        </div>
+                        <hr class="ms-4">
+                        <div class="socials row mt-3 px-5 pb-2">
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-256.png" alt=""></a></div>
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png" alt=""></a></div>
+                            <div class="col"><a href="">
+                                <img class="rounded img-fluid" width="50px" height="50px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="foot">
+                        <form class="footer-form footer-form" action="">
+                                <h3 class="foot-font">Email Sign up</h3>
+                                <p class="my-1">Sign up to receive the latest info on new LOTUS products, special offers and more.</p>
+                                <table>
+                                <tr>
+                                    <td class="td1">
+                                        <label for="" class="col-sm-5 col-form-label">First Name</label>
+                                        <div class="col-sm-10">
+                                        <input type="text" class="form-control ms-1" >
+                                    </div>
+                                        
+                                    </td>
+                                    <td class="td2">
+                                        <label for="" class="col-sm-5 col-form-label">Last Name</label>
+                                        <div class="col-sm-10">
+                                        <input type="text" class="form-control ms-1">
+                                    </td>
+                                </tr>
+                                <br>
+                                <tr>
+                                    <td class="td3" colspan="2">
+                                    <label for="" class="col-sm-5 col-form-label">Email Address</label>
+                                    <div class="col-sm-10">
+                                    <input type="email" class="form-control ms-1"><br>
+                                    <a href="#footer" class="btn btn-outline-warning mb-2">Subscribe</a>
+                                    </td></div>
+                                </tr>
+                                </table>
+                        </form>
+                    </div>
+                <div>
+                    <p>By signing up you agree to receive emails from Lotus with news, special offers, promotions and other information. You can unsubscribe at any time. See our Privacy Policy or Contact Us by filling out this form.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-ann bg-dark">
+            <div class="col-md-3"><h2 class="ms-2 px-5 py-2 textt-wrap">© Lotus Philippines</h2></div>
+            <div class="col-md-9"><h2 class="ms-2 px-5 py-2">ALL RIGHTS RESERVED 2023</h2></div>
+        </div>
+    </footer>
+    <!-------Chat Us-->
+    <div>
+     <a href="#myForm" onclick="openForm()" class="open-button">
+        <img width="75px" src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_FB-Messenger-256.png" alt=""></a>
+        <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
+    </div>
+        <!-------JS-->
+        <script src="JS/chatboxscript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <script src="./JS/jQueryscript.js"></script>
+</body>
+</html>
