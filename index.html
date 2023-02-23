@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -205,12 +207,13 @@
                 </div>
         </section>
         <!-------Features-->
-        <section>
-            <div class="container-fluid">
-               <h2 class="fw-bolder feat-font text-start pb-4 pt-5 px-3 mx-5""> FEATURED PRODUCTS</h2>
+        <section data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="container-fluid px-5">
+               <h2 class="fw-bolder feat-font text-start p-5 px-3"> FEATURED PRODUCTS</h2>
             </div>
             <div class="container-inner mx-5 mt-2 mb-5">
-        <swiper-container class="mySwiper mx-5 px-2 py-2" init="false">
+        <swiper-container class="mySwiper px-5 py-2" init="false">
         <swiper-slide>
             <div class="card" style="width: 350px;">
                 <a href="Item-Info.html"><img width="250px" src="./projectassets/powertools1.jpg" class="img-zoom card-img-top" alt="Sample Image"></a>
@@ -356,43 +359,49 @@
         </div>
         </section>
         <!-------Banner 1----------->
-        <div class="ban container-fluid my-5" id="shop-now">
+        <div class="ban container-fluid my-5" id="shop-now" data-aos="zoom-in-up">
             <h2 class="text-center py-5 mb-2">ENGINEERED TO SURPRISE</h2>
         </div>
         <!-------Categories------------>
-        <section>
+        <section data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="container-fluid my-5">
                 <h2 class="cat-font text-start fw-bolder mx-5 pb-4 pt-5 px-3">SHOP BY CATEGORIES</h2>
                 <div class="container align-content-center d-sm-flex flex-1 justify-content-evenly gap-3 mx-auto mt-2 mb-5">
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="220px" src="https://bynder.sbdinc.com/m/20e2e3ee2cfa41ac/Drupal_Small-DCF900P1_A2.jpg" class="cat-zoom card-img-top" alt="...">
                             <div class="card-body text-justify ps-0 pt-0">
                                 <h5 class="card-title fw-bolder">POWER TOOLS</h5>
                                 <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="220px" src="https://bynder.sbdinc.com/m/3d20538f004af4b5/Drupal_Small-DW_20V_GFN_Batteries_G2.jpg" class="cat-zoom card-img-top" alt="...">
                             <div class="card-body text-justify ps-0 pt-0">
                                 <h5 class="card-title fw-bolder">HAND TOOLS</h5>
                                 <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="220px" src="https://bynder.sbdinc.com/m/59ca34174a8b8f2/Drupal_Small-DCMWP233U2_A5.jpg" class="cat-zoom card-img-top" alt="...">
                             <div class="card-body text-justify ps-0 pt-0">
                                 <h5 class="card-title fw-bolder">GARDEN TOOLS</h5>
                                 <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="220px" src="https://bynder.sbdinc.com/m/43bda639029a263f/Drupal_Small-DW_ToughSeries_G1.jpg" class="cat-zoom card-img-top" alt="...">
                             <div class="card-body text-justify ps-0 pt-0">
                                 <h5 class="card-title fw-bolder">HAND TOOLS</h5>
                                 <a href="Products.html#products" class="cat-btn mt-3">Shop Now</a>
                             </div>
                         </div>      
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="220px" src="https://bynder.sbdinc.com/m/59ca34174a8b8f2/Drupal_Small-DCMWP233U2_A5.jpg" class="cat-zoom card-img-top " alt="...">
                             <div class="card-body text-justify ps-0 pt-0">
                                 <h5 class="card-title fw-bolder">ACCESSORIES</h5>
@@ -403,25 +412,25 @@
             </div>
         </section>
         <!-------Hero Section--------------->
-        <section class="hero container-fluid my-5 bg-dark p-3">
+        <section class="hero container-fluid my-5 bg-dark p-3" >
             <div class="container px-3">
             <div class="row mt-5">
-                <div class="hero1 col-md-6 p-0">
+                <div class="hero1 col-md-6 p-0" data-aos="zoom-in-up"> 
                     <div class="bg-success p-5 text-justify text-light display-1 text-center h-100" width="100%" width="50%" height="100vh">
                         <h1>SOME TEXT HERE</h1>
                         <p>Some text here...</p>
                         <a class="feat-btn btn btn-warning fw-bold" href="Products.html#products">SHOP NOW</a>
                     </div>
                 </div>
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-0"  data-aos="zoom-in-up">
                     <img width="100%" class="bg-dark text-light display-1 text-center h-100" width="50%" height="100vh" src="./projectassets/hero3.jpg" alt="">
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-0"  data-aos="zoom-in-up">
                     <img width="100%" class="bg-dark text-light display-1 text-center h-100" width="50%" height="100vh" src="./projectassets/hero3.jpg" alt="">
                 </div>
-                <div class="col-md-6 p-0">
+                <div class="col-md-6 p-0"  data-aos="zoom-in-up">
                     <div class="bg-success p-5 text-start text-light display-1 text-center h-100" width="100%" width="50%" height="100vh">
                         <h1>SOME TEXT HERE</h1>
                         <p>Some text here...</p>
@@ -432,10 +441,12 @@
             </div>
         </section>
         <!-------Utilities--------------->
-        <section>
+        <section data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="container-fluid my-5">
                 <div class="container align-content-center d-md-flex gap-3 flex-1 justify-content-evenly mx-auto mt-2 mb-5">
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img width="100px" height="180px" src="https://img.icons8.com/ios-filled/256/headphones.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
                             <div class="card-body text-justify pt-0">
                                 <h5 class="card-title fw-bolder">ALWAYS BY YOUR SIDE</h5>
@@ -443,7 +454,8 @@
                                 <a href="#" class="util-btn btn btn-warning">View More</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="180px" src="https://img.icons8.com/material-outlined/256/place-marker.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
                             <div class="card-body text-justify pt-0">
                                 <h5 class="card-title fw-bolder">FIND A LOCAL RETAILER</h5>
@@ -451,7 +463,8 @@
                                 <a href="#" class="util-btn btn btn-warning">View More</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img height="180px" src="https://img.icons8.com/ios-filled/256/messages-mac.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
                             <div class="card-body text-justify pt-0">
                                 <h5 class="card-title fw-bolder">HOW CAN WE HELP?</h5>
@@ -460,7 +473,8 @@
                                 <a href="#" class="util-btn btn btn-warning">View More</a>
                             </div>
                         </div>
-                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;">
+                        <div class="card border-0 mb-3 mx-auto" style="width: 250px;" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <img width="100px" height="180px" src="https://img.icons8.com/ios-filled/256/work.png" class="card-img-top pb-2 pt-5 px-5" alt="...">
                             <div class="card-body text-justify pt-0">
                                 <h5 class="card-title fw-bolder">WARRANTY INFORMATION</h5>
@@ -472,9 +486,10 @@
             </div>
         </section>
         <!-------Stores--------------->
-        <section class="mt-5 pt-5 mx-5">
+        <section class="mt-5 pt-5 mx-5" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="container-fluid h-25 mb-3">
-                <h2 class="store-font text-center fw-bolder">OUR PARTNER STORES</h2>
+                <h2 class="store-font text-center fw-bolder" >OUR PARTNER STORES</h2>
                 <hr class="underline">
                     <div class="row h-25 mx-2 py-3">
                         <img height="150px" class="col-sm-2 mb-2" src="./projectassets/truevalue-logo.png" alt="">
@@ -501,23 +516,24 @@
         <!-------Sign In----------------->
         <section class="bg-light py-5"> 
             <div class="container-fluid h-50 ">
-                <div class="container justify-content-center text-center">
+                <div class="container justify-content-center text-center" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img class="mx-auto mb-3" width="100" src="https://cdn-icons-png.flaticon.com/512/0/191.png" alt="">
-                    <h2 class="si-font si-text-size fw-lighter">JOIN MyLOTUS</h2>
+                    <h2 class="si-font si-text-size fw-lighter" >JOIN MyLOTUS</h2>
                     <p>Join <span class="fw-bolder">MyLOTUS</span> to register your tools to receive discount vouchers or Lotus products and learn about the newest LOTUS tools and accessories.</p>
                     <a class="feat-btn btn btn-warning" href="Create-Account.html">Sign In</a>
                 </div>
             </div>
         </section>
         <!-------Footer Banner--------------->
-        <div class="ban container-fluid mt-3">
+        <div class="ban container-fluid mt-3" data-aos="zoom-in">
             <h2 class="text-center  py-3">PERFORMANCE, DELIVERED</h2>
         </div>
     </main>
     <!---------FOOTER----------->
     <footer id="footer">
         <div class="footer-inner">
-            <div class="row mx-5 px-3 pt-3 wrapper clearfix">
+            <div class="row px-5 pt-3">
                 <div class="col-md-4 flex-1">
                     <div class="footer-logo mb-4">
                         <a href="#">
@@ -626,6 +642,7 @@
         </div>
     </div>
     <!---------Java Scripts--------->
+    <script src="JS/aosScript.js"></script>
     <script src="JS/chatboxscript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="./JS/jQueryscript.js"></script>
