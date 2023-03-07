@@ -206,6 +206,9 @@
           .hr-t {
             height: 3px;
           }
+          .td1>input, .td2>input {
+            padding-inline: 5px;
+          }
 
         
         
