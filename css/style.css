@@ -209,7 +209,10 @@
           .td1>input, .td2>input {
             padding-inline: 5px;
           }
-
+          .active {
+            color: grey;
+          }
+          
         
         
- 
+          
