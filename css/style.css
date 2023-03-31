@@ -212,7 +212,7 @@
           .active {
             color: grey;
           }
-          .style-order {
+          ul {
             list-style-type:none;
           }
           
